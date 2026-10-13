@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <label for="name">Name:</label>
+    <input type="text" name="usernsme" id="name"> 
+    <!-- Name hum isliye dete hai taaki backend me jaake wo uss category ke andar store ho paaye. -->
+    <br><br>
+    <label>Age:</label>
+    <input type="number" name="age">
+    <br><br> 
+    <label>password:</label>
+    <input type="password" name="password">
+    <br><br>
+    <input type="submit">
+    <br><br>
+    <!-- Yaha value dene ka main reason ye hai ki jab hum radio ke through input de rhe hai to kewal 'ON' de rha hai isiliye backend ko correct input mile isiliye "VALUE" de rhe hai -->
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female" value="Female">
+
+    <label for="Others">Others</label>
+   <input type="radio" name="gender" id="Others" value="Others">
+<!-- for & id ek dusre ko connect krte hai label se input ko and ISILIYE HOTA HAI KI LABEL PR KAHI BHI CLICK KRE TO WO INPUT ME JAYE. -->
+ <hr>
+ <label for="C++">C++</label>
+  <input type="checkbox" name="checkbox" id="C++" value="C++">
+  <label for="Python">Python</label>
+  <input type="checkbox" name="checkbox" id="Python" value="Python">
+  <label for="JavaScript">JavaScript</label>
+  <input type="checkbox" name="checkbox" id="JavaScript" value="JavaScript">
+  <label for="HTML">HTML</label>
+  <input type="checkbox" name="checkbox" id="HTML" value="HTML">
+  <br>
+  <input type="submit">
+  <hr>
+  
+   </form>
+    
+</body>
+</html>
