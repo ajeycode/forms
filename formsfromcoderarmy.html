@@ -7,14 +7,14 @@
 </head>
 <body>
    <form>
-    <label for="name">Name:</label>
+    <label for="name">Name:</label required>
     <input type="text" name="usernsme" id="name"> 
     <!-- Name hum isliye dete hai taaki backend me jaake wo uss category ke andar store ho paaye. -->
     <br><br>
-    <label>Age:</label>
+    <label>Age:</label required>
     <input type="number" name="age">
     <br><br> 
-    <label>password:</label>
+    <label>password:</label required>
     <input type="password" name="password">
     <br><br>
     <input type="submit">
@@ -41,7 +41,52 @@
   <br>
   <input type="submit">
   <hr>
+  <h2>Acadamics Background</h2>
+  <label for="course" id="course">Select your courses:</label>
+  <select name="course" id="course">
+   <option value="CSE">CSE</option>
+   <option value="MECHANICAL">MECHANICAL</option>
+   <option value="ELECTRICAL">ELECTRICAL</option>
+   <option value="METALLURGY">METALLURGY</option>
+  </select>
+  <!-- value wo input hota hai jo hum backend ko bhejte hai after the user selection  -->
+  <p>Extra curricualar Intrests</p>
+  <input type="checkbox">
+  <label for="">Sports</label>
+  <br>
+    <input type="checkbox">
+  <label for="">Musics and Arts</label>
+  <br>
+    <input type="checkbox">
+  <label for="">Technology club</label>
+  <br>
+    <input type="checkbox">
+  <label for="">Voluentering</label>
+  <hr>
+  <h1>Create Your Account</h1>
+  <label for="">Create a password:</label required>
+  <input type="password">
+  <br>
+  <br>
+  <label for="">Security Question :</label>
+  <select name="" id="">
+   <option value="">What was your first pet name</option>
+   <option value="">whats your fav book name</option>
+   <option value="">Whats your date of birth</option>
+   
+  </select>
+  <br><br>
   
+  <label for="">Security Answer :</label>
+  <input type="password">
+  <br><br>
+  <input value="agree " type="checkbox">
+  <label for="" >I agree to the Terms and Conditions</label required>
+  <br>
+  <hr>
+  <button type="submit">Register</button>
+  <button type="reset">Clear the form</button>
+
    </form>
     
 </body>
