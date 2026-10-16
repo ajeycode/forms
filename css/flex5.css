@@ -1,0 +1,17 @@
+.captain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 120px;
+   
+    flex-direction: row;
+    background-color: blue;
+    
+    
+}
+
+div{
+    background-color: yellow;
+    margin: 2px;
+    padding: 15px;
+    font-size: small;
+}

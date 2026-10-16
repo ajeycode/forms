@@ -1,0 +1,16 @@
+.captain{
+    display: flex;
+    flex-wrap: wrap;
+   
+    flex-direction: column;
+    background-color: blue;
+    height: 130vh;
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: yellow;
+    margin: 5px;
+    padding: 15px;
+    font-size: small;
+}
